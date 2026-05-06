@@ -38,9 +38,9 @@ Reproducibility code for the Windstorm Institute's papers lives at [github.com/W
 
 ## Infrastructure
 
-- **Primary compute:** NVIDIA RTX 5090 (32 GB VRAM), Intel Core Ultra 9 285K, 256 GB RAM
+- **Primary compute:** Current-generation Nvidia GPU (32 GB VRAM, CUDA), Intel Core Ultra 9 285K, 256 GB RAM
 - **Location:** Mount Pleasant, SC
-- **Agent fleet:** Autonomous AI research agents executing large-scale empirical experiments and adversarial review
+- **Agent fleet:** Anthropic Claude, xAI Grok, Google Gemini, Perplexity Deep Research, and OpenAI in coordinated agentic configurations — large-scale empirical experiments, adversarial review, and multi-LLM verification workflows
 - **Available for use** by the Institute and select collaborators
 
 ## License
