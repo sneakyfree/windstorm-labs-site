@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Windstorm Labs — Engineering & AI Infrastructure for the Windy Ecosystem</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
 <meta name="description" content="The engineering arm of the Windstorm Institute. Builds and ships the Windy product family — Eternitas, WindyWord, WindyChat, WindyClone, WindyCloud, WindyCode, WindyFly, WindyMail, WindyTranslate, WindyTraveler. Runs the autonomous research fleet. Mount Pleasant, South Carolina.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Windstorm Labs">
@@ -83,10 +86,9 @@ nav {
   letter-spacing: -0.01em;
 }
 .nav-mark {
-  width: 32px; height: 32px; border-radius: 8px;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--warm) 100%);
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 700; font-size: 14px; color: var(--bg);
+  width: 32px; height: 32px; border-radius: 50%;
+  display: block;
+  object-fit: cover;
 }
 .nav-links { display: flex; gap: 1.75rem; align-items: center; }
 .nav-links a {
@@ -441,7 +443,7 @@ footer {
 <nav>
   <div class="nav-inner">
     <a href="#" class="nav-brand">
-      <div class="nav-mark">L</div>
+      <img class="nav-mark" src="assets/images/windstorm-logo.png" alt="Windstorm Labs" width="32" height="32">
       Windstorm Labs
     </a>
     <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
