@@ -5,7 +5,11 @@
 // Env required:
 //   RESEND_API_KEY  — Resend API key (set in CF Pages > Settings > Environment variables)
 
-const FROM = "Windstorm Labs <hello@windstormlabs.com>";
+// Send FROM hello@windstorminstitute.org (same domain as the recipient) so
+// Stalwart's spam filter doesn't junk it as a cross-domain external send.
+// Subject prefix "[Labs]" preserves the distinction between Institute and
+// Labs submissions at the triage layer.
+const FROM = "Windstorm Labs <hello@windstorminstitute.org>";
 const TO = ["grant@windstorminstitute.org"];   // unified inbox
 const MIN_FILL_MS = 1500;
 const MAX_MESSAGE_LEN = 8000;
