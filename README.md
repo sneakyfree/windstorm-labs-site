@@ -32,9 +32,9 @@ assets/
 | **Windy Translate** | [windytranslate.com](https://windytranslate.com) | Translation engine (3,500+ models) powering the family |
 | **Windy Traveler** | [windytraveler.com](https://windytraveler.com) | AI travel companion — translation, guides, planning |
 
-## Research code mirror (13 reproducibility repos)
+## Research code mirror (16 reproducibility repos)
 
-Reproducibility code for the Windstorm Institute's papers lives at [github.com/Windstorm-Labs](https://github.com/Windstorm-Labs). 13 repos, mirrored 1:1 with the Institute's paper publication repos. See the [research page](https://windstorminstitute.org) on the Institute site for the corresponding papers.
+Reproducibility code for the Windstorm Institute's papers lives at [github.com/Windstorm-Labs](https://github.com/Windstorm-Labs). 16 repos, mirrored 1:1 with the Institute's paper publication repos. See the [research page](https://windstorminstitute.org) on the Institute site for the corresponding papers.
 
 ## Infrastructure
 
